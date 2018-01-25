@@ -1,7 +1,9 @@
 class MatricresultController < ApplicationController
 
-   def index
-
+   def index # will serves as get Request
+    # @metricres = School.all()
+    # render json: { status: 200,
+    #               data: @metricres }
    end
 
    def create
